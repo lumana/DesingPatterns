@@ -7,15 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77214B172A0E9C20000A5C31 /* ApprovedLoanHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B162A0E9C20000A5C31 /* ApprovedLoanHandler.swift */; };
+		77214B192A0E9D47000A5C31 /* GoldHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B182A0E9D47000A5C31 /* GoldHandler.swift */; };
+		77214B1B2A0E9E0E000A5C31 /* PlatiniumHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B1A2A0E9E0E000A5C31 /* PlatiniumHandler.swift */; };
+		77214B1D2A0E9E19000A5C31 /* BlackHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B1C2A0E9E19000A5C31 /* BlackHandler.swift */; };
+		77214B1F2A0E9EC4000A5C31 /* BankClienteHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B1E2A0E9EC4000A5C31 /* BankClienteHandler.swift */; };
+		77214B222A0EA558000A5C31 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B212A0EA558000A5C31 /* Command.swift */; };
+		77214B242A0EA65B000A5C31 /* CreditCardReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B232A0EA65B000A5C31 /* CreditCardReceiver.swift */; };
+		77214B262A0EA74C000A5C31 /* CreditCardActivateCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B252A0EA74C000A5C31 /* CreditCardActivateCommand.swift */; };
+		77214B282A0EA7E1000A5C31 /* CreditCardDesactivateCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B272A0EA7E1000A5C31 /* CreditCardDesactivateCommand.swift */; };
+		77214B2A2A0EA81D000A5C31 /* CreditCardInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B292A0EA81D000A5C31 /* CreditCardInvoker.swift */; };
+		77214B2D2A0EB671000A5C31 /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B2C2A0EB671000A5C31 /* TrafficLight.swift */; };
+		77214B2F2A0EB68F000A5C31 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B2E2A0EB68F000A5C31 /* Observer.swift */; };
+		77214B312A0EB6BA000A5C31 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B302A0EB6BA000A5C31 /* Subject.swift */; };
+		77214B332A0EB714000A5C31 /* MessagePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B322A0EB714000A5C31 /* MessagePublisher.swift */; };
+		77214B352A0EB7CC000A5C31 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B342A0EB7CC000A5C31 /* Car.swift */; };
+		77214B372A0EB847000A5C31 /* Pedestrian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B362A0EB847000A5C31 /* Pedestrian.swift */; };
+		77214B3A2A0ED1D4000A5C31 /* PaymentTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B392A0ED1D4000A5C31 /* PaymentTemplate.swift */; };
+		77214B3C2A0ED229000A5C31 /* Paypal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B3B2A0ED229000A5C31 /* Paypal.swift */; };
+		77214B3E2A0ED265000A5C31 /* Visa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B3D2A0ED265000A5C31 /* Visa.swift */; };
+		77214B422A0ED3D5000A5C31 /* OperationTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B412A0ED3D5000A5C31 /* OperationTarget.swift */; };
+		77214B442A0ED406000A5C31 /* OperationAdaptee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B432A0ED406000A5C31 /* OperationAdaptee.swift */; };
+		77214B462A0ED449000A5C31 /* OperationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B452A0ED449000A5C31 /* OperationAdapter.swift */; };
+		77214B492A0ED71D000A5C31 /* CreditComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B482A0ED71D000A5C31 /* CreditComponent.swift */; };
+		77214B4B2A0ED749000A5C31 /* BlackCreditComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B4A2A0ED749000A5C31 /* BlackCreditComponent.swift */; };
+		77214B4D2A0ED785000A5C31 /* GoldCreditComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B4C2A0ED785000A5C31 /* GoldCreditComponent.swift */; };
+		77214B4F2A0ED7C0000A5C31 /* CreditDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B4E2A0ED7C0000A5C31 /* CreditDecorator.swift */; };
+		77214B512A0ED824000A5C31 /* InternationalPaymentDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B502A0ED824000A5C31 /* InternationalPaymentDecorator.swift */; };
+		77214B532A0ED8B2000A5C31 /* SecureDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B522A0ED8B2000A5C31 /* SecureDecorator.swift */; };
+		77214B562A0EDC99000A5C31 /* CreditModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B552A0EDC99000A5C31 /* CreditModule.swift */; };
+		77214B582A0EDCCA000A5C31 /* BlackModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B572A0EDCCA000A5C31 /* BlackModule.swift */; };
+		77214B5A2A0EDD9F000A5C31 /* GoldModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B592A0EDD9F000A5C31 /* GoldModule.swift */; };
+		77214B5C2A0EDF54000A5C31 /* SilverModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B5B2A0EDF54000A5C31 /* SilverModule.swift */; };
+		77214B5E2A0EDF91000A5C31 /* CreditMarketFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77214B5D2A0EDF91000A5C31 /* CreditMarketFacade.swift */; };
+		7722FB752A0AA9D300BC92C1 /* CardSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722FB742A0AA9D300BC92C1 /* CardSingleton.swift */; };
 		772ACAFA2A096BBA0040DE42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACAF92A096BBA0040DE42 /* AppDelegate.swift */; };
 		772ACAFC2A096BBA0040DE42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACAFB2A096BBA0040DE42 /* SceneDelegate.swift */; };
 		772ACAFE2A096BBA0040DE42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACAFD2A096BBA0040DE42 /* ViewController.swift */; };
 		772ACB012A096BBA0040DE42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772ACAFF2A096BBA0040DE42 /* Main.storyboard */; };
 		772ACB032A096BBB0040DE42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772ACB022A096BBB0040DE42 /* Assets.xcassets */; };
 		772ACB062A096BBB0040DE42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772ACB042A096BBB0040DE42 /* LaunchScreen.storyboard */; };
+		772ACB102A096BF90040DE42 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB0F2A096BF90040DE42 /* Payment.swift */; };
+		772ACB122A096C3B0040DE42 /* GooglePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB112A096C3B0040DE42 /* GooglePayment.swift */; };
+		772ACB142A096C710040DE42 /* CardPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB132A096C710040DE42 /* CardPayment.swift */; };
+		772ACB162A096CA70040DE42 /* TypePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB152A096CA70040DE42 /* TypePayment.swift */; };
+		772ACB182A096CDE0040DE42 /* PaymentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB172A096CDE0040DE42 /* PaymentFactory.swift */; };
+		772ACB1A2A0999640040DE42 /* ApplePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB192A0999640040DE42 /* ApplePayment.swift */; };
+		772ACB1D2A099A3C0040DE42 /* PaymentAF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB1C2A099A3C0040DE42 /* PaymentAF.swift */; };
+		772ACB1F2A099A9F0040DE42 /* CardPaymentAF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB1E2A099A9F0040DE42 /* CardPaymentAF.swift */; };
+		772ACB212A099ADC0040DE42 /* GooglePaymentAF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB202A099ADC0040DE42 /* GooglePaymentAF.swift */; };
+		772ACB232A099B2B0040DE42 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB222A099B2B0040DE42 /* PaymentMethod.swift */; };
+		772ACB252A099B8E0040DE42 /* MonthlyMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB242A099B8E0040DE42 /* MonthlyMethod.swift */; };
+		772ACB272A099BFB0040DE42 /* WeeklyMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB262A099BFB0040DE42 /* WeeklyMethod.swift */; };
+		772ACB292A099C690040DE42 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB282A099C690040DE42 /* AbstractFactory.swift */; };
+		772ACB2B2A099CD50040DE42 /* PaymentInMonthlyCardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB2A2A099CD50040DE42 /* PaymentInMonthlyCardFactory.swift */; };
+		772ACB2D2A099D450040DE42 /* PaymentInWeeklyGoogleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB2C2A099D450040DE42 /* PaymentInWeeklyGoogleFactory.swift */; };
+		772ACB2F2A099DB20040DE42 /* PaymentMethodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB2E2A099DB20040DE42 /* PaymentMethodClient.swift */; };
+		772ACB322A09A0DA0040DE42 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB312A09A0DA0040DE42 /* Card.swift */; };
+		772ACB352A09A3410040DE42 /* PrototypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB342A09A3410040DE42 /* PrototypeCard.swift */; };
+		772ACB372A09A4180040DE42 /* VisaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772ACB362A09A4180040DE42 /* VisaCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77214B162A0E9C20000A5C31 /* ApprovedLoanHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovedLoanHandler.swift; sourceTree = "<group>"; };
+		77214B182A0E9D47000A5C31 /* GoldHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldHandler.swift; sourceTree = "<group>"; };
+		77214B1A2A0E9E0E000A5C31 /* PlatiniumHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatiniumHandler.swift; sourceTree = "<group>"; };
+		77214B1C2A0E9E19000A5C31 /* BlackHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackHandler.swift; sourceTree = "<group>"; };
+		77214B1E2A0E9EC4000A5C31 /* BankClienteHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankClienteHandler.swift; sourceTree = "<group>"; };
+		77214B212A0EA558000A5C31 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		77214B232A0EA65B000A5C31 /* CreditCardReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardReceiver.swift; sourceTree = "<group>"; };
+		77214B252A0EA74C000A5C31 /* CreditCardActivateCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardActivateCommand.swift; sourceTree = "<group>"; };
+		77214B272A0EA7E1000A5C31 /* CreditCardDesactivateCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardDesactivateCommand.swift; sourceTree = "<group>"; };
+		77214B292A0EA81D000A5C31 /* CreditCardInvoker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardInvoker.swift; sourceTree = "<group>"; };
+		77214B2C2A0EB671000A5C31 /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
+		77214B2E2A0EB68F000A5C31 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		77214B302A0EB6BA000A5C31 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		77214B322A0EB714000A5C31 /* MessagePublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePublisher.swift; sourceTree = "<group>"; };
+		77214B342A0EB7CC000A5C31 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		77214B362A0EB847000A5C31 /* Pedestrian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedestrian.swift; sourceTree = "<group>"; };
+		77214B392A0ED1D4000A5C31 /* PaymentTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTemplate.swift; sourceTree = "<group>"; };
+		77214B3B2A0ED229000A5C31 /* Paypal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paypal.swift; sourceTree = "<group>"; };
+		77214B3D2A0ED265000A5C31 /* Visa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visa.swift; sourceTree = "<group>"; };
+		77214B412A0ED3D5000A5C31 /* OperationTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTarget.swift; sourceTree = "<group>"; };
+		77214B432A0ED406000A5C31 /* OperationAdaptee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationAdaptee.swift; sourceTree = "<group>"; };
+		77214B452A0ED449000A5C31 /* OperationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationAdapter.swift; sourceTree = "<group>"; };
+		77214B482A0ED71D000A5C31 /* CreditComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditComponent.swift; sourceTree = "<group>"; };
+		77214B4A2A0ED749000A5C31 /* BlackCreditComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackCreditComponent.swift; sourceTree = "<group>"; };
+		77214B4C2A0ED785000A5C31 /* GoldCreditComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldCreditComponent.swift; sourceTree = "<group>"; };
+		77214B4E2A0ED7C0000A5C31 /* CreditDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditDecorator.swift; sourceTree = "<group>"; };
+		77214B502A0ED824000A5C31 /* InternationalPaymentDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternationalPaymentDecorator.swift; sourceTree = "<group>"; };
+		77214B522A0ED8B2000A5C31 /* SecureDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureDecorator.swift; sourceTree = "<group>"; };
+		77214B552A0EDC99000A5C31 /* CreditModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditModule.swift; sourceTree = "<group>"; };
+		77214B572A0EDCCA000A5C31 /* BlackModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackModule.swift; sourceTree = "<group>"; };
+		77214B592A0EDD9F000A5C31 /* GoldModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldModule.swift; sourceTree = "<group>"; };
+		77214B5B2A0EDF54000A5C31 /* SilverModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverModule.swift; sourceTree = "<group>"; };
+		77214B5D2A0EDF91000A5C31 /* CreditMarketFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditMarketFacade.swift; sourceTree = "<group>"; };
+		7722FB742A0AA9D300BC92C1 /* CardSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSingleton.swift; sourceTree = "<group>"; };
 		772ACAF62A096BBA0040DE42 /* DesingPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesingPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		772ACAF92A096BBA0040DE42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		772ACAFB2A096BBA0040DE42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +111,25 @@
 		772ACB022A096BBB0040DE42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		772ACB052A096BBB0040DE42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		772ACB072A096BBB0040DE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		772ACB0F2A096BF90040DE42 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		772ACB112A096C3B0040DE42 /* GooglePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePayment.swift; sourceTree = "<group>"; };
+		772ACB132A096C710040DE42 /* CardPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPayment.swift; sourceTree = "<group>"; };
+		772ACB152A096CA70040DE42 /* TypePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypePayment.swift; sourceTree = "<group>"; };
+		772ACB172A096CDE0040DE42 /* PaymentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFactory.swift; sourceTree = "<group>"; };
+		772ACB192A0999640040DE42 /* ApplePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayment.swift; sourceTree = "<group>"; };
+		772ACB1C2A099A3C0040DE42 /* PaymentAF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAF.swift; sourceTree = "<group>"; };
+		772ACB1E2A099A9F0040DE42 /* CardPaymentAF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPaymentAF.swift; sourceTree = "<group>"; };
+		772ACB202A099ADC0040DE42 /* GooglePaymentAF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePaymentAF.swift; sourceTree = "<group>"; };
+		772ACB222A099B2B0040DE42 /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		772ACB242A099B8E0040DE42 /* MonthlyMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyMethod.swift; sourceTree = "<group>"; };
+		772ACB262A099BFB0040DE42 /* WeeklyMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyMethod.swift; sourceTree = "<group>"; };
+		772ACB282A099C690040DE42 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		772ACB2A2A099CD50040DE42 /* PaymentInMonthlyCardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInMonthlyCardFactory.swift; sourceTree = "<group>"; };
+		772ACB2C2A099D450040DE42 /* PaymentInWeeklyGoogleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInWeeklyGoogleFactory.swift; sourceTree = "<group>"; };
+		772ACB2E2A099DB20040DE42 /* PaymentMethodClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodClient.swift; sourceTree = "<group>"; };
+		772ACB312A09A0DA0040DE42 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		772ACB342A09A3410040DE42 /* PrototypeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCard.swift; sourceTree = "<group>"; };
+		772ACB362A09A4180040DE42 /* VisaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +143,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77214B142A0E9B4C000A5C31 /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				77214B382A0ED1B4000A5C31 /* Template */,
+				77214B2B2A0EB652000A5C31 /* Observer */,
+				77214B202A0EA329000A5C31 /* Command */,
+				77214B152A0E9B70000A5C31 /* ChainOfResponsability */,
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		77214B152A0E9B70000A5C31 /* ChainOfResponsability */ = {
+			isa = PBXGroup;
+			children = (
+				77214B162A0E9C20000A5C31 /* ApprovedLoanHandler.swift */,
+				77214B182A0E9D47000A5C31 /* GoldHandler.swift */,
+				77214B1A2A0E9E0E000A5C31 /* PlatiniumHandler.swift */,
+				77214B1C2A0E9E19000A5C31 /* BlackHandler.swift */,
+				77214B1E2A0E9EC4000A5C31 /* BankClienteHandler.swift */,
+			);
+			path = ChainOfResponsability;
+			sourceTree = "<group>";
+		};
+		77214B202A0EA329000A5C31 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				77214B212A0EA558000A5C31 /* Command.swift */,
+				77214B232A0EA65B000A5C31 /* CreditCardReceiver.swift */,
+				77214B252A0EA74C000A5C31 /* CreditCardActivateCommand.swift */,
+				77214B272A0EA7E1000A5C31 /* CreditCardDesactivateCommand.swift */,
+				77214B292A0EA81D000A5C31 /* CreditCardInvoker.swift */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		77214B2B2A0EB652000A5C31 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				77214B2C2A0EB671000A5C31 /* TrafficLight.swift */,
+				77214B2E2A0EB68F000A5C31 /* Observer.swift */,
+				77214B302A0EB6BA000A5C31 /* Subject.swift */,
+				77214B322A0EB714000A5C31 /* MessagePublisher.swift */,
+				77214B342A0EB7CC000A5C31 /* Car.swift */,
+				77214B362A0EB847000A5C31 /* Pedestrian.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		77214B382A0ED1B4000A5C31 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				77214B392A0ED1D4000A5C31 /* PaymentTemplate.swift */,
+				77214B3B2A0ED229000A5C31 /* Paypal.swift */,
+				77214B3D2A0ED265000A5C31 /* Visa.swift */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		77214B3F2A0ED320000A5C31 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				77214B542A0ED9EC000A5C31 /* Facade */,
+				77214B472A0ED61F000A5C31 /* Decorator */,
+				77214B402A0ED331000A5C31 /* Adapter */,
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
+		77214B402A0ED331000A5C31 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				77214B412A0ED3D5000A5C31 /* OperationTarget.swift */,
+				77214B432A0ED406000A5C31 /* OperationAdaptee.swift */,
+				77214B452A0ED449000A5C31 /* OperationAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		77214B472A0ED61F000A5C31 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				77214B482A0ED71D000A5C31 /* CreditComponent.swift */,
+				77214B4A2A0ED749000A5C31 /* BlackCreditComponent.swift */,
+				77214B4C2A0ED785000A5C31 /* GoldCreditComponent.swift */,
+				77214B4E2A0ED7C0000A5C31 /* CreditDecorator.swift */,
+				77214B502A0ED824000A5C31 /* InternationalPaymentDecorator.swift */,
+				77214B522A0ED8B2000A5C31 /* SecureDecorator.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		77214B542A0ED9EC000A5C31 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				77214B552A0EDC99000A5C31 /* CreditModule.swift */,
+				77214B572A0EDCCA000A5C31 /* BlackModule.swift */,
+				77214B592A0EDD9F000A5C31 /* GoldModule.swift */,
+				77214B5B2A0EDF54000A5C31 /* SilverModule.swift */,
+				77214B5D2A0EDF91000A5C31 /* CreditMarketFacade.swift */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		7722FB732A0AA9B500BC92C1 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				7722FB742A0AA9D300BC92C1 /* CardSingleton.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		772ACAED2A096BBA0040DE42 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +273,9 @@
 		772ACAF82A096BBA0040DE42 /* DesingPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				77214B3F2A0ED320000A5C31 /* Structural */,
+				77214B142A0E9B4C000A5C31 /* Behavioral */,
+				772ACB0D2A096BCD0040DE42 /* Creational */,
 				772ACAF92A096BBA0040DE42 /* AppDelegate.swift */,
 				772ACAFB2A096BBA0040DE42 /* SceneDelegate.swift */,
 				772ACAFD2A096BBA0040DE42 /* ViewController.swift */,
@@ -65,6 +285,65 @@
 				772ACB072A096BBB0040DE42 /* Info.plist */,
 			);
 			path = DesingPatterns;
+			sourceTree = "<group>";
+		};
+		772ACB0D2A096BCD0040DE42 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				7722FB732A0AA9B500BC92C1 /* Singleton */,
+				772ACB332A09A3120040DE42 /* Prototype */,
+				772ACB302A09A02D0040DE42 /* Builder */,
+				772ACB1B2A099A2A0040DE42 /* AbstractFactory */,
+				772ACB0E2A096BE00040DE42 /* FactoryMethod */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		772ACB0E2A096BE00040DE42 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				772ACB0F2A096BF90040DE42 /* Payment.swift */,
+				772ACB112A096C3B0040DE42 /* GooglePayment.swift */,
+				772ACB132A096C710040DE42 /* CardPayment.swift */,
+				772ACB152A096CA70040DE42 /* TypePayment.swift */,
+				772ACB172A096CDE0040DE42 /* PaymentFactory.swift */,
+				772ACB192A0999640040DE42 /* ApplePayment.swift */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		772ACB1B2A099A2A0040DE42 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				772ACB1C2A099A3C0040DE42 /* PaymentAF.swift */,
+				772ACB1E2A099A9F0040DE42 /* CardPaymentAF.swift */,
+				772ACB202A099ADC0040DE42 /* GooglePaymentAF.swift */,
+				772ACB222A099B2B0040DE42 /* PaymentMethod.swift */,
+				772ACB242A099B8E0040DE42 /* MonthlyMethod.swift */,
+				772ACB262A099BFB0040DE42 /* WeeklyMethod.swift */,
+				772ACB282A099C690040DE42 /* AbstractFactory.swift */,
+				772ACB2A2A099CD50040DE42 /* PaymentInMonthlyCardFactory.swift */,
+				772ACB2C2A099D450040DE42 /* PaymentInWeeklyGoogleFactory.swift */,
+				772ACB2E2A099DB20040DE42 /* PaymentMethodClient.swift */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		772ACB302A09A02D0040DE42 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				772ACB312A09A0DA0040DE42 /* Card.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		772ACB332A09A3120040DE42 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				772ACB342A09A3410040DE42 /* PrototypeCard.swift */,
+				772ACB362A09A4180040DE42 /* VisaCard.swift */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +417,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77214B1B2A0E9E0E000A5C31 /* PlatiniumHandler.swift in Sources */,
+				772ACB2D2A099D450040DE42 /* PaymentInWeeklyGoogleFactory.swift in Sources */,
+				77214B3A2A0ED1D4000A5C31 /* PaymentTemplate.swift in Sources */,
 				772ACAFE2A096BBA0040DE42 /* ViewController.swift in Sources */,
 				772ACAFA2A096BBA0040DE42 /* AppDelegate.swift in Sources */,
+				77214B512A0ED824000A5C31 /* InternationalPaymentDecorator.swift in Sources */,
+				7722FB752A0AA9D300BC92C1 /* CardSingleton.swift in Sources */,
+				77214B492A0ED71D000A5C31 /* CreditComponent.swift in Sources */,
+				77214B4F2A0ED7C0000A5C31 /* CreditDecorator.swift in Sources */,
+				77214B372A0EB847000A5C31 /* Pedestrian.swift in Sources */,
+				77214B562A0EDC99000A5C31 /* CreditModule.swift in Sources */,
+				772ACB272A099BFB0040DE42 /* WeeklyMethod.swift in Sources */,
+				77214B2A2A0EA81D000A5C31 /* CreditCardInvoker.swift in Sources */,
+				77214B172A0E9C20000A5C31 /* ApprovedLoanHandler.swift in Sources */,
+				77214B5E2A0EDF91000A5C31 /* CreditMarketFacade.swift in Sources */,
+				772ACB212A099ADC0040DE42 /* GooglePaymentAF.swift in Sources */,
+				772ACB252A099B8E0040DE42 /* MonthlyMethod.swift in Sources */,
+				77214B242A0EA65B000A5C31 /* CreditCardReceiver.swift in Sources */,
+				77214B5A2A0EDD9F000A5C31 /* GoldModule.swift in Sources */,
+				772ACB1A2A0999640040DE42 /* ApplePayment.swift in Sources */,
+				772ACB322A09A0DA0040DE42 /* Card.swift in Sources */,
+				772ACB162A096CA70040DE42 /* TypePayment.swift in Sources */,
+				772ACB1F2A099A9F0040DE42 /* CardPaymentAF.swift in Sources */,
+				772ACB1D2A099A3C0040DE42 /* PaymentAF.swift in Sources */,
+				77214B352A0EB7CC000A5C31 /* Car.swift in Sources */,
+				77214B312A0EB6BA000A5C31 /* Subject.swift in Sources */,
+				77214B462A0ED449000A5C31 /* OperationAdapter.swift in Sources */,
+				77214B422A0ED3D5000A5C31 /* OperationTarget.swift in Sources */,
+				77214B3C2A0ED229000A5C31 /* Paypal.swift in Sources */,
+				77214B442A0ED406000A5C31 /* OperationAdaptee.swift in Sources */,
+				772ACB142A096C710040DE42 /* CardPayment.swift in Sources */,
+				772ACB2F2A099DB20040DE42 /* PaymentMethodClient.swift in Sources */,
+				772ACB2B2A099CD50040DE42 /* PaymentInMonthlyCardFactory.swift in Sources */,
+				77214B582A0EDCCA000A5C31 /* BlackModule.swift in Sources */,
+				77214B1F2A0E9EC4000A5C31 /* BankClienteHandler.swift in Sources */,
+				772ACB122A096C3B0040DE42 /* GooglePayment.swift in Sources */,
+				77214B222A0EA558000A5C31 /* Command.swift in Sources */,
+				772ACB182A096CDE0040DE42 /* PaymentFactory.swift in Sources */,
+				77214B282A0EA7E1000A5C31 /* CreditCardDesactivateCommand.swift in Sources */,
+				77214B332A0EB714000A5C31 /* MessagePublisher.swift in Sources */,
+				77214B262A0EA74C000A5C31 /* CreditCardActivateCommand.swift in Sources */,
+				772ACB352A09A3410040DE42 /* PrototypeCard.swift in Sources */,
+				77214B2F2A0EB68F000A5C31 /* Observer.swift in Sources */,
+				77214B5C2A0EDF54000A5C31 /* SilverModule.swift in Sources */,
+				77214B2D2A0EB671000A5C31 /* TrafficLight.swift in Sources */,
+				77214B3E2A0ED265000A5C31 /* Visa.swift in Sources */,
+				772ACB292A099C690040DE42 /* AbstractFactory.swift in Sources */,
+				77214B4D2A0ED785000A5C31 /* GoldCreditComponent.swift in Sources */,
+				772ACB372A09A4180040DE42 /* VisaCard.swift in Sources */,
+				772ACB102A096BF90040DE42 /* Payment.swift in Sources */,
 				772ACAFC2A096BBA0040DE42 /* SceneDelegate.swift in Sources */,
+				77214B532A0ED8B2000A5C31 /* SecureDecorator.swift in Sources */,
+				772ACB232A099B2B0040DE42 /* PaymentMethod.swift in Sources */,
+				77214B4B2A0ED749000A5C31 /* BlackCreditComponent.swift in Sources */,
+				77214B192A0E9D47000A5C31 /* GoldHandler.swift in Sources */,
+				77214B1D2A0E9E19000A5C31 /* BlackHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
